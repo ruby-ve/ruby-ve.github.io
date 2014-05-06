@@ -1,3 +1,23 @@
-name: Your New Jekyll Site
+title: RubyVE
+name: RubyVE
+
+connect:
+  twitter: https://twitter.com/rubyve
+  gplus: https://plus.google.com/communities/106213524853304399957
+  ggoogle: https://groups.google.com/forum/#!forum/rubyve
+  github: https://github.com/ruby-ve
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
 markdown: redcarpet
 pygments: true
+
+safe: true
+host: 0.0.0.0
+port: 3000
+baseurl: /
+url: http://ruby.org.ve
+lsi: false
