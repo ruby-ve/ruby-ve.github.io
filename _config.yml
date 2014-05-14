@@ -6,6 +6,7 @@ connect:
   gplus: https://plus.google.com/communities/106213524853304399957
   ggoogle: https://groups.google.com/forum/#!forum/rubyve
   github: https://github.com/ruby-ve
+  irc: irc://irc.freenode.net/#rubyve
 
 exclude:
   - README.md
