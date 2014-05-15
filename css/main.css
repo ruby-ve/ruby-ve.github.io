@@ -104,7 +104,7 @@ a:visited { color: #a0a; }
 
 .footer .contact {
   float: left;
-  margin-right: 3em;
+  margin-right: 2em;
 }
 
 .footer .contact a {
@@ -119,6 +119,10 @@ a:visited { color: #a0a; }
 
 .footer .rss img {
   border: 0;
+}
+
+.footer .pull-right {
+  float: right;
 }
 
 /*****************************************************************************/
