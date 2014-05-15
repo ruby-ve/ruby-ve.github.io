@@ -19,9 +19,11 @@ highlighter: rouge
 
 permalink: pretty
 
-safe: true
 host: 0.0.0.0
 port: 3000
 baseurl: /
 url: http://ruby.org.ve
 lsi: false
+
+gems:
+  - jekyll-sitemap
