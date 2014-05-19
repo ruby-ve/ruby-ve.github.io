@@ -1,42 +1,30 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="description" content="{{ page.description }}">
-        <meta name="author" content="{{ site.name }}">
-        <meta name="viewport" content="width=device-width">
-        <title>{{ page.title }} - {{ site.title }}</title>
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-    </head>
-    <body>
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="{{ site.baseurl }}">{{ site.name }}</a></h1>
-          </div>
-          {{ content }}
-          <div class="footer">
-            <div class="contact">
-              <p>
-                {{ site.name }}
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="{{ site.connect.github }}">Github</a><br>
-                <a href="{{ site.connect.ggoogle }}">Grupo de Discusión</a><br>
-                <a href="{{ site.connect.gplus }}">Google+</a><br>
-                <a href="{{ site.connect.twitter }}">Twitter</a><br>
-                <a href="{{ site.connect.irc }}">Canal IRC</a><br>
-              </p>
-            </div>
-            <div class="pull-right">
-              <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a></p>
-            </div>
-          </div>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include sidebar.html %}
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">{{ site.title }}</a>
+            <small>{{ site.tagline }}</small>
+          </h3>
         </div>
-    </body>
+      </div>
+
+      <div class="container content">
+        {{ content }}
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  </body>
 </html>
