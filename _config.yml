@@ -29,3 +29,51 @@ lsi: false
 
 gems:
   - jekyll-sitemap
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'https://ruby-ve.github.io/'
+  media: 'assets'
+  metadata:
+    _posts:
+      - name: 'layout'
+        field:
+          element: 'hidden'
+          value: 'post'
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+          type: "text"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: ""
+          placeholder: "Pedro Perez"
+          type: "text"
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description"
+          value: ""
+          placeholder: "Add a post description under 155 characters."
+          type: "text"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          alterable: true
+          options:
+            - name: "Comunidad"
+              value: "comunidad"
+            - name: "Hangout"
+              value: "hangout"
+            - name: "Ruby Tuesdays"
+              value: "ruby-tuesdays"
+            - name: "Reunión"
+              value: "reunión"
+            - name: "Anuncio"
+              value: "anuncio"
