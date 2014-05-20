@@ -51,7 +51,7 @@ prose:
           element: "text"
           label: "Author"
           value: ""
-          placeholder: "John Doe"
+          placeholder: "Pedro Perez"
           type: "text"
       - name: "description"
         field:
@@ -60,15 +60,20 @@ prose:
           value: ""
           placeholder: "Add a post description under 155 characters."
           type: "text"
-      - name: "categories"
-        field:
-          element: "multiselect"
-          label: "Post Category"
-          placeholder: "Create or choose"
-          alterable: true
       - name: "tags"
         field:
           element: "multiselect"
           label: "Add Tags"
           placeholder: "Choose Tags"
           alterable: true
+          options:
+            - name: "Comunidad"
+              value: "comunidad"
+            - name: "Hangout"
+              value: "hangout"
+            - name: "Ruby Tuesdays"
+              value: "ruby-tuesdays"
+            - name: "Reunión"
+              value: "reunión"
+            - name: "Anuncio"
+              value: "anuncio"
