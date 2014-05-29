@@ -8,6 +8,7 @@ connect:
   ggoogle: https://groups.google.com/forum/#!forum/rubyve
   github: https://github.com/ruby-ve
   irc: irc://irc.freenode.net/#rubyve
+  temario: https://docs.google.com/spreadsheet/ccc?key=0AlFW4ZKapXzcdDlpLXk4QjdNaHlDSGh5cURSV1JtX3c&hl=en&forcehl=1#gid=1
 
 exclude:
   - README.md
