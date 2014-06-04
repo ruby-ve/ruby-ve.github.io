@@ -10,6 +10,11 @@ connect:
   irc: irc://irc.freenode.net/#rubyve
   temario: https://docs.google.com/spreadsheet/ccc?key=0AlFW4ZKapXzcdDlpLXk4QjdNaHlDSGh5cURSV1JtX3c&hl=en&forcehl=1#gid=1
 
+analytics:
+  google:
+    id: UA-19430884-2
+    domain: ruby.org.ve
+
 exclude:
   - README.md
   - Gemfile
