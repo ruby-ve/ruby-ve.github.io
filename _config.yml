@@ -55,7 +55,7 @@ prose:
       - name: "author"
         field:
           element: "text"
-          label: "Author"
+          label: "Author Full Name"
           value: ""
           placeholder: "Pedro Perez"
           type: "text"
