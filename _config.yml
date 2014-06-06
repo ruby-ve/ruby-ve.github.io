@@ -59,6 +59,13 @@ prose:
           value: ""
           placeholder: "Pedro Perez"
           type: "text"
+      - name: "author_twitter"
+        field:
+          element: "text"
+          label: "Author Twitter Handle"
+          value: ""
+          placeholder: "rubyve"
+          type: "text"
       - name: "description"
         field:
           element: "text"
