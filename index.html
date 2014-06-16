@@ -13,7 +13,11 @@ description: Página oficial del Grupo de Usuarios Ruby de Venezuela.
           {{ post.title }}
         </a>
       </h1>
-      <span class="post-date">{{ post.date | date_to_string }}</span>
+      <span class="post-date">
+        {{ post.date | date_to_string }}{% if post.author or post.author_twitter %} - {% endif %}
+        {% if post.author %} {{ post.author }} {% endif %}
+        {% if post.author_twitter %}(<a href="https://twitter.com/{{ post.author_twitter }}">@{{ post.author_twitter }}</a>){% endif %}
+      </span>
       {{ post.content }}
     </div>
     {% endunless %}
