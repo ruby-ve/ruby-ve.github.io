@@ -23,18 +23,19 @@ exclude:
   - LAYON-LICENSE
 
 markdown: redcarpet
-highlighter: rouge
+highlighter: pygments
 
 permalink: pretty
 
 host: 0.0.0.0
 port: 3000
-baseurl: /
+baseurl: ""
 url: http://ruby.org.ve
 lsi: false
 
 gems:
   - jekyll-sitemap
+  - jemoji
 
 prose:
   rooturl: '_posts'
